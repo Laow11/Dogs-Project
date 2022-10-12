@@ -1,0 +1,57 @@
+.paginated {
+  display: flex;
+  margin: 10px 200px;
+  grid-template-columns: repeat(auto-fill, 40px);
+  list-style: none;
+  gap: 5px;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.number {
+  background-color: rgb(59, 37, 185);
+  color: rgb(255, 255, 255);
+  list-style: none;
+  display: flex;
+  font-size: 15px;
+  margin: auto;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  border-radius: 4px;
+  font: 1vw/1.6 "Acme", sans-serif;
+}
+
+.number:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.current {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 30px;
+  height: 30px;
+
+  position: relative;
+}
+
+.nav {
+  width: 80%;
+  margin: auto;
+}

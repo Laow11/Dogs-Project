@@ -1,0 +1,166 @@
+.conteiner {
+  width: 120vh;
+  height: 100%;
+  display: block;
+  margin: auto;
+  overflow: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font: bold 7.5vw/1.6 "Acme", sans-serif;
+  color: black;
+  font-size: 50px;
+  letter-spacing: 5px;
+  text-shadow: -1px -1px 0px #f4511e;
+}
+
+.coso {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.form {
+  background-color: white;
+  border-radius: 15px;
+  width: 45%;
+  margin: auto;
+  padding: auto;
+  font: 1vw "Acme", sans-serif;
+}
+
+.label,
+.labell {
+  justify-content: center;
+  margin: auto;
+  display: flex;
+
+  margin: 30px 0 0 20px;
+  padding: auto;
+}
+
+.row {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  width: 50%;
+  margin: auto;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid gainsboro;
+  outline: none;
+}
+
+.input:focus {
+  border: none;
+  border-bottom: 3px solid #555;
+}
+
+.inputl:focus {
+  border: none;
+  border-bottom: 3px solid #555;
+}
+
+.inputl {
+  width: 80%;
+  margin: 10px 0 10px 20px;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid gainsboro;
+  outline: none;
+}
+
+.select {
+  width: 90%;
+  padding: 12px 20px;
+  margin: 20px 0 0 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.button {
+  width: 20%;
+  background-color: rgb(230, 159, 6);
+  color: black;
+  font: 1vw "Acme", sans-serif;
+  padding: 20px 20px;
+  margin: 8px 8px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button2 {
+  width: 20%;
+  background-color: rgb(230, 159, 6);
+  color: black;
+  font: 1vw "Acme", sans-serif;
+  padding: 20px 20px;
+  margin: 8px 8px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.button:hover {
+  transform: scale(1.04);
+  cursor: pointer;
+}
+
+.button2:hover {
+  transform: scale(1.04);
+  cursor: pointer;
+}
+.botonTemp {
+  width: 30%;
+  color: black;
+  padding: 10px;
+  margin: 5px;
+  margin-right: 7%;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font: 1vw "Acme", sans-serif;
+}
+
+.botonTemp:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.error {
+  display: flex;
+  flex-direction: row;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font: 1vw "Acme", sans-serif;
+  color: rgb(230, 230, 230);
+  margin-left: 4%;
+}
+
+.danger {
+  background-color: rgb(255, 0, 0);
+  justify-content: space-between;
+  justify-items: stretch;
+  border-radius: 10%;
+  padding: -20px;
+  margin-left: 75%;
+  margin-top: -85%;
+  margin-bottom: 150%;
+  width: 350px;
+  height: auto;
+}
+
+.ul {
+  list-style: none;
+}
+
+.delete {
+  margin: auto;
+}

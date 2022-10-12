@@ -1,0 +1,73 @@
+.conteiner {
+  background-image: url(../img/HomeImage.jpg);
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  max-width: 100%;
+  overflow: auto;
+}
+
+.title {
+  font: bold 7.5vw/1.6 "Acme", sans-serif;
+  color: black;
+  font-size: 20px;
+  letter-spacing: 5px;
+  text-shadow: -1px -1px 0px teal;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: auto;
+}
+
+.cardLink {
+  text-decoration: none;
+  color: black;
+}
+
+.select {
+  width: 29%;
+  padding: 12px 20px;
+  margin: 8px 8px;
+  display: inline-block;
+  border-radius: 8px;
+  box-sizing: 4px;
+  font: lighter 1vw "Acme" sans-serif;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  width: 20%;
+  background-color: rgb(230, 159, 6);
+  color: black;
+  padding: 10px 8px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font: 1vw "Acme", sans-serif;
+}
+
+.button:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.loading {
+  font: bold 7.5vw/1.6 "Acme", sans-serif;
+  height: auto;
+  font-size: 50px;
+  letter-spacing: 5px;
+  color: red;
+}

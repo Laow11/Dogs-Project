@@ -1,0 +1,40 @@
+.conteiner {
+  height: 100vh;
+  width: 100%;
+  background-image: url("https://cloudfront-us-east-1.images.arcpublishing.com/infobae/KBKE7YQANFDGBG7U5SOTTXFFWQ.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  height: 75px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.title {
+  font: bold 7.5vw/1.6 "Acme", sans-serif;
+  color: white;
+  font-size: 80px;
+  letter-spacing: 5px;
+  text-shadow: -1px -1px 0px black, 3px 3px 0px gainsboro, 6px 6px 0px teal;
+}
+
+.btn:hover {
+  background-color: rgb(165, 48, 2);
+  transform: scale(1.1);
+  cursor: pointer;
+}
